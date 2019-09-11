@@ -10,7 +10,10 @@ object Problem1 extends App {
   /*dopping duplicates based on name and age */
 
   df.dropDuplicates("Name","Age").show()
-    spark.stop()
+
+  spark.stop()
+
+  /*Added comment for spark session stopping */
 
 }
 
